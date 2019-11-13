@@ -25,15 +25,16 @@ header {
     margin-bottom: 30px;
 }
 
-.side-border {
+/* .side-border {
     border-right: green solid 2px;
-}
+} */
 
 .picture {
     width: 100%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    background-color: aqua;
 }
 .picture:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition: 1s ease-in-out;
 }
