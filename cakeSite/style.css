@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 header {
     background-image: url(background);
     width: 100%;
@@ -7,9 +13,27 @@ header {
     background-size: cover;
 }
 
-#title, #intro {
+#title, #intro, #heading {
     text-align: center;
     /* padding-top: 20%; */
     font-size: 35px;
     color: blue;
+}
+
+.selection {    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.side-border {
+    border-right: green solid 2px;
+}
+
+.picture {
+    width: 100%;
+    border-radius: 50%;
+}
+.picture:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
 }
