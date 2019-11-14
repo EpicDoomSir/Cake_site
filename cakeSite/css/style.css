@@ -1,7 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Ruda&display=swap');
 
-html, h1, h2, p {
-    font-family: 'Julius Sans One', sans-serif;
+html, 
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+}
+
+#title {
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+
+}
+
+h2, p {
+}
+
+#intro {
+    font-family: 'Ruda', sans-serif;
 }
 
 * {
@@ -23,7 +38,7 @@ header {
     text-align: center;
     padding-top: 5%; 
     font-size: 50px;
-    color: blue;
+    color: #000080;
 }
 
 .selection {    
