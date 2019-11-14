@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Rock+Salt&display=swap');
+
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt|Ruda&display=swap');
 
-html, 
-
-h1, .navbar {
+.navbar {
     font-family: 'Rock Salt', cursive;
 }
 
 #title {
     font-family: 'Rock Salt', cursive;
-    font-size: 40px;
+    text-align: center;
+    padding-top: 5%; 
+    font-size: 90px;
+    color: #000080;
 
 }
 
@@ -16,7 +19,7 @@ h2, p {
 }
 
 #intro {
-    font-family: 'Ruda', sans-serif;
+   font-family: 'Architects Daughter', cursive;
 }
 
 * {
@@ -34,7 +37,7 @@ header {
     background-size: cover;
 }
 
-#title, #intro, #heading {
+#intro, #heading {
     text-align: center;
     padding-top: 5%; 
     font-size: 50px;
