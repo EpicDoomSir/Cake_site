@@ -1,0 +1,13 @@
+.pictures {
+    width: 200px;
+    /* height: 100%; */
+}
+
+.bases, .toppings {
+    align-items: center;
+}
+
+.pictures:hover {
+    transform: scale(1.05);
+    transition: 0.7s ease-in-out;
+}
