@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+
+html, h1, h2, p {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.whole {
+    background-image: url(../../cakephotos/background.png);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 .pictures {
     width: 200px;
     /* height: 100%; */
@@ -11,3 +26,4 @@
     transform: scale(1.05);
     transition: 0.7s ease-in-out;
 }
+
