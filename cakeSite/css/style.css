@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../../cakephotos/background.png);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#title, #intro, #heading {
+    text-align: center;
+    /* padding-top: 20%; */
+    font-size: 35px;
+    color: blue;
+}
+
+.selection {    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* .side-border {
+    border-right: green solid 2px;
+} */
+
+.picture {
+    width: 100%;
+    /* border-radius: 50%; */
+    background-color: aqua;
+}
+.picture:hover {
+    transform: scale(1.07);
+    transition: 1s ease-in-out;
+}
